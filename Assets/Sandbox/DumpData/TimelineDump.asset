@@ -1,0 +1,408 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f9470ff6aba7c440ba1f83e787eb181, type: 3}
+  m_Name: TimelineDump
+  m_EditorClassIdentifier: 
+  CreateAt: 2019-08-29 01:12:07
+  trackDumpList:
+  - trackType: UnityEngine.Timeline.MarkerTrack
+    TrackName: Markers
+    parentIndex: -1
+    clipDumpList: []
+  - trackType: UnityEngine.Timeline.AnimationTrack
+    TrackName: Animation Track
+    parentIndex: -1
+    clipDumpList:
+    - objectMetaData:
+        IsNull: 0
+        Name: AnimationPlayableAsset
+        HashCode: -10672
+      timelineClip:
+        m_Version: 1
+        m_Start: 0
+        m_ClipIn: 0
+        m_Asset: {fileID: 4577615121738708672, guid: 129ff2ab2de07e9428ba1a0753afc1b8,
+          type: 2}
+        m_Duration: 1
+        m_TimeScale: 1
+        m_ParentTrack: {fileID: -2325089455183205875, guid: 129ff2ab2de07e9428ba1a0753afc1b8,
+          type: 2}
+        m_EaseInDuration: 0
+        m_EaseOutDuration: 0
+        m_BlendInDuration: -1
+        m_BlendOutDuration: -1
+        m_MixInCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_MixOutCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_BlendInCurveMode: 0
+        m_BlendOutCurveMode: 0
+        m_ExposedParameterNames: []
+        m_AnimationCurves: {fileID: 0}
+        m_Recordable: 0
+        m_PostExtrapolationMode: 1
+        m_PreExtrapolationMode: 1
+        m_PostExtrapolationTime: Infinity
+        m_PreExtrapolationTime: 0
+        m_DisplayName: MoveCube
+  - trackType: UnityEngine.Timeline.ActivationTrack
+    TrackName: Activation Track
+    parentIndex: -1
+    clipDumpList:
+    - objectMetaData:
+        IsNull: 0
+        Name: ActivationPlayableAsset
+        HashCode: -11428
+      timelineClip:
+        m_Version: 1
+        m_Start: 0
+        m_ClipIn: 0
+        m_Asset: {fileID: 4668414999821308575, guid: 129ff2ab2de07e9428ba1a0753afc1b8,
+          type: 2}
+        m_Duration: 0.08333333333333333
+        m_TimeScale: 1
+        m_ParentTrack: {fileID: -2893368098017672755, guid: 129ff2ab2de07e9428ba1a0753afc1b8,
+          type: 2}
+        m_EaseInDuration: 0
+        m_EaseOutDuration: 0
+        m_BlendInDuration: 0
+        m_BlendOutDuration: 0
+        m_MixInCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_MixOutCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_BlendInCurveMode: 0
+        m_BlendOutCurveMode: 0
+        m_ExposedParameterNames: []
+        m_AnimationCurves: {fileID: 0}
+        m_Recordable: 0
+        m_PostExtrapolationMode: 0
+        m_PreExtrapolationMode: 0
+        m_PostExtrapolationTime: 0
+        m_PreExtrapolationTime: 0
+        m_DisplayName: Active
+    - objectMetaData:
+        IsNull: 0
+        Name: ActivationPlayableAsset
+        HashCode: -12946
+      timelineClip:
+        m_Version: 1
+        m_Start: 0
+        m_ClipIn: 0
+        m_Asset: {fileID: -8647154996627075879, guid: 129ff2ab2de07e9428ba1a0753afc1b8,
+          type: 2}
+        m_Duration: 0.16666666666666666
+        m_TimeScale: 1
+        m_ParentTrack: {fileID: -2893368098017672755, guid: 129ff2ab2de07e9428ba1a0753afc1b8,
+          type: 2}
+        m_EaseInDuration: 0
+        m_EaseOutDuration: 0
+        m_BlendInDuration: 0
+        m_BlendOutDuration: 0
+        m_MixInCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_MixOutCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_BlendInCurveMode: 0
+        m_BlendOutCurveMode: 0
+        m_ExposedParameterNames: []
+        m_AnimationCurves: {fileID: 0}
+        m_Recordable: 0
+        m_PostExtrapolationMode: 0
+        m_PreExtrapolationMode: 0
+        m_PostExtrapolationTime: 0
+        m_PreExtrapolationTime: 0
+        m_DisplayName: Active
+    - objectMetaData:
+        IsNull: 0
+        Name: ActivationPlayableAsset
+        HashCode: -11916
+      timelineClip:
+        m_Version: 1
+        m_Start: 0.3333333333333333
+        m_ClipIn: 0
+        m_Asset: {fileID: -783449876001305635, guid: 129ff2ab2de07e9428ba1a0753afc1b8,
+          type: 2}
+        m_Duration: 0.16666666666666669
+        m_TimeScale: 1
+        m_ParentTrack: {fileID: -2893368098017672755, guid: 129ff2ab2de07e9428ba1a0753afc1b8,
+          type: 2}
+        m_EaseInDuration: 0
+        m_EaseOutDuration: 0
+        m_BlendInDuration: 0
+        m_BlendOutDuration: 0
+        m_MixInCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_MixOutCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_BlendInCurveMode: 0
+        m_BlendOutCurveMode: 0
+        m_ExposedParameterNames: []
+        m_AnimationCurves: {fileID: 0}
+        m_Recordable: 0
+        m_PostExtrapolationMode: 0
+        m_PreExtrapolationMode: 0
+        m_PostExtrapolationTime: 0
+        m_PreExtrapolationTime: 0
+        m_DisplayName: Active
+    - objectMetaData:
+        IsNull: 0
+        Name: ActivationPlayableAsset
+        HashCode: -12096
+      timelineClip:
+        m_Version: 1
+        m_Start: 0.6666666666666666
+        m_ClipIn: 0
+        m_Asset: {fileID: -4103958561550029642, guid: 129ff2ab2de07e9428ba1a0753afc1b8,
+          type: 2}
+        m_Duration: 0.16666666666666663
+        m_TimeScale: 1
+        m_ParentTrack: {fileID: -2893368098017672755, guid: 129ff2ab2de07e9428ba1a0753afc1b8,
+          type: 2}
+        m_EaseInDuration: 0
+        m_EaseOutDuration: 0
+        m_BlendInDuration: 0
+        m_BlendOutDuration: 0
+        m_MixInCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_MixOutCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_BlendInCurveMode: 0
+        m_BlendOutCurveMode: 0
+        m_ExposedParameterNames: []
+        m_AnimationCurves: {fileID: 0}
+        m_Recordable: 0
+        m_PostExtrapolationMode: 0
+        m_PreExtrapolationMode: 0
+        m_PostExtrapolationTime: 0
+        m_PreExtrapolationTime: 0
+        m_DisplayName: Active
